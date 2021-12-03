@@ -126,4 +126,4 @@ componentWillMount() is invoked immediately before mounting occurs. It makes API
 Stateful logic is any code that uses the state,it is built into the component, it is a form of logic that stores logic value.
 
 4. What are the three step of creating a successful test? What is done in each phase? 
-Arrange,Act and Assert. Arrange is how you originally set everything up, when you want to do a action or something that is when act comes into play and when you want to make sure that what was expected to happen has actually happened you would then Assert.
+Arrange,Act and Assert. Arrange is how you originally set everything up.When you want to do a action or something that is when act comes into play.When you want to make sure that what was expected to happen has actually happened you would then Assert.
