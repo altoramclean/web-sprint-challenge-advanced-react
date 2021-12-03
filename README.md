@@ -25,9 +25,9 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 You will also need to build the two tests in the `CheckoutForm.test.js` file and make sure they are testing what the test title says they are.
 
 ## Project Setup
-* [ ] Run npm install to install your dependencies.
-* [ ] Run npm start to run your frontend and backend code automatically.
-* [ ] Note your backend code will run automatically when your run npm start. There is no need to seperately run a server.js file and no means to test the server through postman or the browser. Feel free to ignore any messages related to MSW or mock service workers.
+* [x] Run npm install to install your dependencies.
+* [x] Run npm start to run your frontend and backend code automatically.
+* [x] Note your backend code will run automatically when your run npm start. There is no need to seperately run a server.js file and no means to test the server through postman or the browser. Feel free to ignore any messages related to MSW or mock service workers.
 
 ## Project Instructions
 
@@ -107,19 +107,23 @@ test("displays plants in cart", () => {
 ```
 
 ## Submission format
-* [ ] Submit via Codegrade by committing and pushing any new changes to **your main branch.**
-* [ ] Check Codegrade before the deadline to compare its results against your local tests.
-* [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
-* [ ] New commits will be evaluated by Codegrade if pushed before the sprint challenge deadline.
+* [x] Submit via Codegrade by committing and pushing any new changes to **your main branch.**
+* [x] Check Codegrade before the deadline to compare its results against your local tests.
+* [x] Check Codegrade on the days following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
+* [x] New commits will be evaluated by Codegrade if pushed before the sprint challenge deadline.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a stateful and a functional component?
+Main differences between a stateful and function component is that one has state and the other does not.Stateful components are always class components, it keeps track of changing data, they implement logic and state whereas functional component accepts data and prints what was given via props, functional component accepts props and returns a React element.
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
+componentWillMount() is invoked immediately before mounting occurs. It makes API calls once the component is initiated.With componentWillUpdate() it is called when a component is about to be updated.
 
 3. Define stateful logic.
+Stateful logic is any code that uses the state,it is built into the component, it is a form of logic that stores logic value.
 
 4. What are the three step of creating a successful test? What is done in each phase? 
+Arrange,Act and Assert. Arrange is how you originally set everything up, when you want to do a action or something that is when act comes into play and when you want to make sure that what was expected to happen has actually happened you would then Assert.
